@@ -5,7 +5,7 @@ export const PrivateRoute = ({ children }) => {
   const { currentUser } = UserAuth();
 
   if(!currentUser) {
-    return <Navigate to="/"/>
+    return <Navigate to="/" replace={true}  />
   }
   return children;
 }
