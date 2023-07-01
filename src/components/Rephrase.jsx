@@ -95,7 +95,7 @@ const Rephrase = ({ data, setValue, setPreview}) => {
           <textarea
           value={editValue}
           onChange={(e) => setEditValue(e.target.value)}
-          className="input w-full focus:outline-none bg-[#30363c] text-gray-400 rounded-b-none p-4 h-full resize-none overflow-y-auto"
+          className="input w-full focus:outline-none bg-[#30363c] text-gray-400 rounded-t-xl p-4 h-full resize-none overflow-y-auto"
           type="text"
         />
         }
