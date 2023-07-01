@@ -5,7 +5,7 @@ import { db } from "../firebase";
 
 const ChatBox = () => {
   const messagesEndRef = useRef();
-  const [messages, setMassages] = useState([]);
+  const [messages, setMessages] = useState([]);
 
   const scrollToBottom = () => {
     messagesEndRef.current.scrollIntoView({ behavior: "smooth"})
@@ -25,7 +25,7 @@ const ChatBox = () => {
       querySnapshot.forEach((doc) => {
         messages.push({ ...doc.data(), id: doc.id });
       });
-      setMassages(messages);
+      setMessages(messages);
     });
 
     return () => unsubscribe;
