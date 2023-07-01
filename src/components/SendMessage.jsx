@@ -15,8 +15,8 @@ import magic from '../assets/magic.png'
 import Emozy from "../assets/emozy.png";
 import Bmenu from "../assets/Bmenu.png";
 import ImageGen from "./ImageGen";
-import data from "@emoji-mart/data";
-import Picker from "@emoji-mart/react";
+// import data from "@emoji-mart/data";
+// import Picker from "@emoji-mart/react";
 
 
 
