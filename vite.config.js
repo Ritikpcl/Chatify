@@ -5,8 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@emoji-mart/react'],
-      external: ['@emoji-mart/data'],
+      external: ['@emoji-mart/react','@emoji-mart/data'],
     },
   },
 });
