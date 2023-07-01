@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage} from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: `${import.meta.env.VITE_API_KEY}`,
+  apiKey: `AIzaSyBtl3-a_2JkKTYWGrJRUOgwS7aeNchGaH8`,
   authDomain: `${import.meta.env.VITE_AUTH_DOMAIN}`,
   projectId: `${import.meta.env.VITE_PROJECT_ID}`,
   storageBucket: `${import.meta.env.VITE_STORAGE_BUCKET}`,
