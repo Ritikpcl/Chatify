@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emoji-mart/data": "^1.1.2",
     "axios": "^1.4.0",
     "cors": "^2.8.5",
     "daisyui": "^2.50.0",
